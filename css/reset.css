@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+html, body, header, h1, img, main, form, fieldset, legend, div, input, button, a, span, label, footer, ul, li {
+  margin: 0;
+  padding: 0;
+  font-size: 1.0rem;
+  font-weight: normal;
+  font-style: normal;
+}
+fieldset {
+  border: 0;
+}
+legend {
+  display: none;
+}
+ul, li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+button {
+  background-color: #fff;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
