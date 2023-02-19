@@ -7,8 +7,14 @@
   <title>카카오톡 로그인</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/no-mobile.css">
 </head>
 <body>
+  <div class="hidden">
+    <span class="hidden_text">
+      화면 크기가 너무 큽니다. <br>화면 너비를 768px 이하로 맞춰주세요.
+    </span>
+  </div>
   <header>
     <h1>
       <img src="images/login/logo.png" alt="">
@@ -18,31 +24,32 @@
     <form>
       <fieldset>
         <legend>로그인 양식</legend>
-        <ul class="user_info">
-          <li><input type="text" id="" placeholder="카카오계정 (이메일 또는 전화번호)"></li>
-          <li><input type="password" id="" placeholder="비밀번호"></li>
-        </ul>
+        <div class="user_info">
+          <input type="text" id="" placeholder="카카오계정 (이메일 또는 전화번호)">
+          <input type="password" id="" placeholder="비밀번호">
+        </div>
       </fieldset>
     </form>
-    <button type="submit" class="login_Btn">로그인</button>
-    <div class="OR">
-      <span>또는</span>
-    </div>
+    <button class="login_Btn">로그인</button>
+    <div class="OR">또는</div>
     <a href="#" class="qr_login">
       <img src="images/login/qr.png" alt="">
       <span>QR코드 로그인</span>
     </a>
     <div class="auto_login">
-      <label for="autologin">
-        <span><input type="checkbox" id="autologin"></span>
-        <span>자동로그인</span>
-      </label>
-      <div class="info"><span>ｉ</span></div>
+      <p>
+        <label>
+          <input type="checkbox" name="autologin">
+          <span>자동로그인</span>
+        </label>
+      </p>
+      <div class="info"><span><b>i</b></span></div>
     </div>
   </main>
   <footer>
     <div class="help">
       <a href="#">카카오계정 찾기</a>
+      <div>ㅣ</div>
       <a href="#">비밀번호 재설정</a>
     </div>
   </footer>

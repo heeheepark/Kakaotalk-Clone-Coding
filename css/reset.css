@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
 }
-html, body, header, h1, img, main, form, fieldset, legend, div, input, button, a, span, label, footer, ul, li {
+html, body, header, nav, h1, img, main, form, fieldset, legend, div, input, button, a, span, label, footer, ul, li, p {
   margin: 0;
   padding: 0;
   font-size: 1.0rem;
   font-weight: normal;
   font-style: normal;
+  line-height: 1.0;
 }
 fieldset {
   border: 0;
@@ -16,6 +17,9 @@ legend {
 }
 ul, li {
   list-style: none;
+}
+label{
+  cursor: pointer;
 }
 input {
   border: none;

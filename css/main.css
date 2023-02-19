@@ -1,0 +1,216 @@
+body {
+  width: 380px;
+  margin: 0px auto;
+}
+header {
+  width: 100%;
+  margin-bottom: 10px;
+}
+header nav.topbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 30px 30px;
+}
+header nav.topbar span {
+  font-size: 1.1rem;
+}
+header nav.topbar ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+header nav.topbar ul li:not(:last-of-type) {
+  padding-right: 8px
+}
+header nav.topbar ul li:last-of-type {
+  font-size: 1.3rem;
+}
+header .top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+header .top .text {
+  font-size: 1.25rem;
+}
+header .top ul.icon {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+header .top ul.icon li:not(:last-of-type) {
+  padding-right: 20px;
+}
+header .top ul.icon li a {
+  width: 15px;
+  height: 15px;
+}
+main {}
+main .AD {
+  background-color: rgb(243, 243, 243);
+  border-radius: 6px;
+  height: 78px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+main .AD .textbox {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding-left: 15px;
+}
+main .AD .textbox .title {
+  margin-bottom: 6px;
+  color: #222
+}
+main .AD .textbox .subtitle {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+main .AD .textbox .subtitle > a {
+  background-color: rgb(251, 230, 76);
+  border-radius: 15px;
+  display: flex;
+  text-align: center;
+  padding: 3px 6px;
+}
+main .AD .textbox .subtitle > a i {
+  font-size: 0.6rem;
+}
+main .AD .textbox .subtitle > a > .text {
+  font-size: 0.5rem;
+  letter-spacing: -0.5px;
+}
+main .AD .textbox .subtitle > span {
+  font-size: 0.8rem;
+  padding-left: 3px;
+  color: #707070
+}
+main .AD img {
+  width: 63px;
+  height: 60px;
+  margin: 12px 24px 0 0;
+}
+main > .profile {
+  height: 75px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #f2f2f2;
+}
+main .profile .left {
+  display: flex;
+  align-items: center;
+}
+main .profile .profile_img {
+  margin-right: 12px;
+}
+main .profile .profile_img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+main .profile .user {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: start;
+}
+main .profile .user .user_name {
+  padding-bottom: 10px;
+  font-size: 1.0rem;
+}
+main .profile .user .message {
+  font-size: 0.8rem;
+}
+main .profile .music span {
+  font-size:  0.7rem;
+  border: 1px solid rgb(92, 202, 82);
+  border-radius: 15px;
+  height: 21px;
+  padding: 4px 12px;
+  color:#707070
+}
+main .multiprofile {
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #f2f2f2;
+}
+main .multiprofile .title {
+  color:#a8a8a8;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+main .multiprofile .title span {
+  font-size: 0.75rem;
+}
+main .multiprofile .title i {
+  font-size: 0.75rem;
+}
+main .multiprofile > .profile {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+}
+main .multiprofile .profile .profile1 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-right: 18px;
+}
+main .multiprofile .profile .profile1 i {
+  background-color: rgb(156, 201, 219);
+  color: rgb(199, 225, 235);
+  border: 1px solid rgb(147, 190, 207);
+  border-radius: 40%;
+  font-size: 1.2rem;
+  padding: 12px 15px;
+  margin-bottom: 7.5px;
+}
+main .multiprofile .profile .profile1 span {
+  font-size: 0.7rem;
+}
+main .multiprofile .profile .profile2 {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+main .multiprofile .profile .profile2 i {
+  background-color: rgb(245, 245, 245);
+  color: rgb(106, 106, 106);
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 40%;
+  font-size: 1.2rem;
+  padding: 12px 15px;
+  margin-bottom: 7.5px;
+}
+main .multiprofile .profile .profile2 span {
+  font-size: 0.7rem;
+}
+main .blank {
+  height: 339px;
+  background-color: #fff;
+  border-bottom: rgb(240, 240, 240);
+}
+footer {
+  padding-top: 18px;
+  background-color: rgb(249, 249, 249);
+}
+footer .menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+footer .menu li a img {
+  width: 27px;
+}
