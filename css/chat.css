@@ -1,195 +1,200 @@
-body {
-  width: 380px;
-  margin: 0px auto;
-}
-header {
-  width: 100%;
-  margin-bottom: 10px;
-}
-header nav.topbar {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 21px 0 36px 30px;
-}
-header nav.topbar span {
-  font-size: 1.1rem;
-}
-header nav.topbar ul {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
-header nav.topbar ul li:not(:last-of-type) {
-  padding-right: 8px
-}
-header nav.topbar ul li:last-of-type {
-  font-size: 1.3rem;
-}
-header .top {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-header .top .text {
-  font-size: 1.25rem;
-}
-header .top ul.icon {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
-header .top ul.icon li:not(:last-of-type) {
-  padding-right: 20px;
-}
-header .top ul.icon li a {
-  width: 15px;
-  height: 15px;
-}
-main {}
-main .AD {
-  background-color: rgb(243, 243, 243);
-  border-radius: 6px;
-  height: 78px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-main .AD .textbox {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  padding-left: 15px;
-}
-main .AD .textbox .title {
-  margin-bottom: 6px;
-  color: #222
-}
-main .AD .textbox .subtitle {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
-/*
-main .AD .textbox .subtitle > a {
-  background-color: rgb(251, 230, 76);
-  border-radius: 15px;
-  display: flex;
-  text-align: center;
-  padding: 3px 6px;
-}
-main .AD .textbox .subtitle > a i {
-  font-size: 0.6rem;
-}
-main .AD .textbox .subtitle > a > .text {
-  font-size: 0.5rem;
-  letter-spacing: -0.5px;
-}
-*/
-main .AD .textbox .subtitle > span {
-  font-size: 0.8rem;
-  color: #707070
-}
-main .AD img {
-  width: 120px;
-  height: 78px;
-  margin-right: 8px;
-}
-main .chat{
-  display: flex;
-  flex-flow: column nowrap;
-}
-main .chat a[class^=chat] {
-  height: 58px;
-  background-color: #fff;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 21px;
-}
-main .chat a[class^=chat] .left {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-}
-main .chat a[class^=chat] .left .profile_img {
-  margin-right: 12px;
-}
-main .chat a[class^=chat] .left .profile_img img {
-  width: 55px;
-  height: 55px;
-  border-radius: 40%;
-}
-main .chat a[class^=chat] .text {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: start;
-}
-main .chat a[class^=chat] .text .user_name {
-  padding-bottom: 8px;
-  font-size: 0.96rem;
-  letter-spacing: -1px;
-}
-main .chat a[class=chat1] .text .user_name {
-  display: flex;
-  align-items: center;
-}
-main .chat a[class=chat1] .text .user_name .user_me {
-  width: 18px;
-  height: 18px;
-  background-color: rgb(75, 81, 91);
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 4px;
-}
-main .chat a[class=chat1] .text .user_name .user_me span {
-  color: #fff;
-  font-size: 0.1rem;
-}
-main .chat a[class=chat1] .text .user_name > span {
-  font-size: 0.96rem;
-}
-main .chat a[class^=chat] .text .message {
-  font-size: 0.7rem;
-  line-height: 0.8;
-  color: rgb(167, 167, 167);
-}
-main .chat a[class^=chat] .right {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: end;
-}
-main .chat a[class^=chat] .right .time {
-  font-size: 0.68rem;
-  color: rgb(189, 189, 189);
-  padding-bottom: 6px;
-}
-main .chat a[class^=chat] .right .readBtn {
-  width: 20px;
-  height: 20px;
-  background-color: rgb(237, 108, 60);
-  text-align: center;
-  border-radius: 50%;
-}
-main .chat a[class^=chat] .right .readBtn span {
-  color: #fff;
-  font-size: 10px;
-}
-footer {
-  height: 60px;
-  padding-top: 18px;
-  background-color: rgb(249, 249, 249);
-  border-top: 1px solid rgb(240, 240, 240);
-}
-footer .menu {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-footer .menu li a img {
-  width: 27px;
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  body {
+    width: 380px;
+    margin: 0px auto;
+  }
+  .hidden {
+    display: none;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  header nav.topbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 0 36px 30px;
+  }
+  header nav.topbar span {
+    font-size: 1.1rem;
+  }
+  header nav.topbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header nav.topbar ul li:not(:last-of-type) {
+    padding-right: 8px
+  }
+  header nav.topbar ul li:last-of-type {
+    font-size: 1.3rem;
+  }
+  header .top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  header .top .text {
+    font-size: 1.25rem;
+  }
+  header .top ul.icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header .top ul.icon li:not(:last-of-type) {
+    padding-right: 20px;
+  }
+  header .top ul.icon li a {
+    width: 15px;
+    height: 15px;
+  }
+  main {}
+  main .AD {
+    background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    height: 78px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  main .AD .textbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 15px;
+  }
+  main .AD .textbox .title {
+    margin-bottom: 6px;
+    color: #222
+  }
+  main .AD .textbox .subtitle {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  /*
+  main .AD .textbox .subtitle > a {
+    background-color: rgb(251, 230, 76);
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    padding: 3px 6px;
+  }
+  main .AD .textbox .subtitle > a i {
+    font-size: 0.6rem;
+  }
+  main .AD .textbox .subtitle > a > .text {
+    font-size: 0.5rem;
+    letter-spacing: -0.5px;
+  }
+  */
+  main .AD .textbox .subtitle > span {
+    font-size: 0.8rem;
+    color: #707070
+  }
+  main .AD img {
+    width: 120px;
+    height: 78px;
+    margin-right: 8px;
+  }
+  main .chat{
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  main .chat a[class^=chat] {
+    height: 58px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 21px;
+  }
+  main .chat a[class^=chat] .left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  main .chat a[class^=chat] .left .profile_img {
+    margin-right: 12px;
+  }
+  main .chat a[class^=chat] .left .profile_img img {
+    width: 55px;
+    height: 55px;
+    border-radius: 40%;
+  }
+  main .chat a[class^=chat] .text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: start;
+  }
+  main .chat a[class^=chat] .text .user_name {
+    padding-bottom: 8px;
+    font-size: 0.96rem;
+    letter-spacing: -1px;
+  }
+  main .chat a[class=chat1] .text .user_name {
+    display: flex;
+    align-items: center;
+  }
+  main .chat a[class=chat1] .text .user_name .user_me {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(75, 81, 91);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 4px;
+  }
+  main .chat a[class=chat1] .text .user_name .user_me span {
+    color: #fff;
+    font-size: 0.1rem;
+  }
+  main .chat a[class=chat1] .text .user_name > span {
+    font-size: 0.96rem;
+  }
+  main .chat a[class^=chat] .text .message {
+    font-size: 0.7rem;
+    line-height: 0.8;
+    color: rgb(167, 167, 167);
+  }
+  main .chat a[class^=chat] .right {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
+  }
+  main .chat a[class^=chat] .right .time {
+    font-size: 0.68rem;
+    color: rgb(189, 189, 189);
+    padding-bottom: 6px;
+  }
+  main .chat a[class^=chat] .right .readBtn {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(237, 108, 60);
+    text-align: center;
+    border-radius: 50%;
+  }
+  main .chat a[class^=chat] .right .readBtn span {
+    color: #fff;
+    font-size: 10px;
+  }
+  footer {
+    height: 60px;
+    padding-top: 18px;
+    background-color: rgb(249, 249, 249);
+    border-top: 1px solid rgb(240, 240, 240);
+  }
+  footer .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  footer .menu li a img {
+    width: 27px;
+  }
 }
