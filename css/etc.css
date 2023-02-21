@@ -1,0 +1,215 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  body {
+    width: 380px;
+    margin: 0px auto;
+  }
+  .hidden {
+    display: none;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  header nav.topbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px 30px;
+    margin-right: 15px;
+  }
+  header nav.topbar span {
+    font-size: 1.1rem;
+  }
+  header nav.topbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header nav.topbar ul li:not(:last-of-type) {
+    padding-right: 8px
+  }
+  header nav.topbar ul li:last-of-type {
+    font-size: 1.3rem;
+  }
+  header .top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 15px;
+  }
+  header .top .text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+  header .top ul.icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header .top ul.icon li:not(:last-of-type) {
+    padding-right: 20px;
+  }
+  header .top ul.icon li a {
+    width: 15px;
+    height: 15px;
+  }
+  main section.wallet {
+    height: 207px;
+    background-color: rgb(250, 230, 76);
+    padding: 18px 18px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  main section.wallet .top {
+    height: 36px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  main section.wallet .top .left {
+    display: flex;
+    align-items: center;
+  }
+  main section.wallet .top .left span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  main section.wallet .top .left i {}
+  main section.wallet .top .right {
+    display: flex;
+    align-items: center;
+  }
+  main section.wallet .top .right img {
+    margin-right: 2px;
+  }
+  main section.wallet .top .right span {
+    font-size: 0.96rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+  }
+  main section.wallet .middle1 {
+    height: 48px;
+    background-color:rgb(254, 252, 227) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  main section.wallet .middle1 .left {
+    display: flex;
+    align-items: center;
+  }
+  main section.wallet .middle1 .left img {}
+  main section.wallet .middle1 .left span {
+    font-size: 0.92rem;
+    font-weight: bold;
+  }
+  main section.wallet .middle1 i {
+    font-size: 0.7rem;
+  }
+  main section.wallet .middle2 {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 5px;
+  }
+  main section.wallet .middle2 .left {
+    display: flex;
+    align-items: center;
+  }
+  main section.wallet .middle2 .left span {
+    display: block;
+    height: 25px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    letter-spacing: -0.5px;
+  }
+  main section.wallet .middle2 > span {
+    font-size: 0.9rem;
+  }
+  main section.wallet .bottom {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+  }
+  main section.wallet .bottom ul.left {
+    display: flex;
+    align-items: center;
+  }
+  main section.wallet .bottom ul.left li {
+    font-size: 0.9rem;
+    letter-spacing: -1px;
+    padding: 0 18px;
+    border-right: 1px solid rgb(229, 210, 69);
+  }
+  main section.wallet .bottom ul.left li:first-of-type {
+    padding-left: 0;
+  }
+  main section.wallet .bottom ul.left li:last-of-type {
+    border-right: none;
+    padding-right: 0;
+  }
+  main section.wallet .bottom .right {
+    letter-spacing: -1.5px;
+  }
+  main section.wallet .bottom .right i {
+    font-size: 0.9rem;
+  }
+  main section.wallet .bottom .right span {
+    font-size: 0.9rem;
+    letter-spacing: -1.5px;
+  }
+  main section.icons {
+    height: 442px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px 20px 
+  }
+  main section.icons ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  main section.icons ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  main section.icons ul li img {
+    width: 38px;
+    height: 30px;
+    margin-bottom: 8px;
+  }
+  main section.icons ul li span {
+    font-size: 0.5rem;
+    letter-spacing: -1px;
+  }
+
+  footer {
+    height: 60px;
+    padding-top: 18px;
+    background-color: rgb(249, 249, 249);
+    border-top: 1px solid rgb(240, 240, 240);
+  }
+  footer .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  footer .menu li a img {
+    width: 27px;
+  }
+}
