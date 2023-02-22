@@ -121,11 +121,34 @@
   }
   main .chat a[class^=chat] .left .profile_img {
     margin-right: 12px;
-  }
-  main .chat a[class^=chat] .left .profile_img img {
     width: 55px;
     height: 55px;
     border-radius: 40%;
+    background-size: 100%;
+    background-position: center center;
+  }
+  main .chat a.chat1 .left .profile_img {
+    background-image: url('../images/main/profile/KakaoTalk_20230219_192357329.jpg');
+    background-size: 70px;
+    background-position: center center;
+  }
+    main .chat a.chat2 .left .profile_img {
+    background-image: url('../images/chat/chat2.jpg');
+  }
+  main .chat a.chat3 .left .profile_img {
+    background-image: url('../images/chat/chat3.jpg');
+  }
+  main .chat a.chat4 .left .profile_img {
+    background-image: url('../images/chat/chat4.jpg');
+  }
+  main .chat a.chat5 .left .profile_img {
+    background-image: url('../images/chat/chat5.jpg');
+  }
+  main .chat a.chat6 .left .profile_img {
+    background-image: url('../images/chat/chat6.jpg');
+  }
+  main .chat a.chat7 .left .profile_img {
+    background-image: url('../images/chat/chat7.jpg');
   }
   main .chat a[class^=chat] .text {
     display: flex;
@@ -188,6 +211,7 @@
     padding-top: 18px;
     background-color: rgb(249, 249, 249);
     border-top: 1px solid rgb(240, 240, 240);
+    position: relative;
   }
   footer .menu {
     display: flex;
@@ -196,5 +220,20 @@
   }
   footer .menu li a img {
     width: 27px;
+  }
+  footer .chat {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(237, 108, 60);
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 0.93;
+    position: absolute;
+    top: 14px;
+    left: 118px;
+  }
+  footer .chat span {
+    font-size: 0.7rem;
   }
 }

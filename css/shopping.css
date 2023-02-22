@@ -1,0 +1,235 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  body {
+    width: 380px;
+    margin: 0px auto;
+  }
+  .hidden {
+    display: none;
+  }
+  header {
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+  }
+  header nav.topbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px 30px;
+  }
+  header nav.topbar span {
+    font-size: 1.1rem;
+  }
+  header nav.topbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header nav.topbar ul li:not(:last-of-type) {
+    padding-right: 8px
+  }
+  header nav.topbar ul li:last-of-type {
+    font-size: 1.3rem;
+  }
+  header .top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  header .top .text {
+    font-size: 1.25rem;
+  }
+  header .top ul.icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header .top ul.icon li:not(:last-of-type) {
+    padding-right: 20px;
+  }
+  header .top ul.icon li a {
+    width: 15px;
+    height: 15px;
+  }
+  main {}
+  main .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 17px;
+  }
+  main .top a {}
+  main .top a li {
+    width: 52px;
+    height: 45px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  main .top a li img {
+    padding-bottom: 5px;
+  }
+  main .top a li span {
+    font-size: 0.7rem;
+    letter-spacing: -1px;
+  }
+  main .AD {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(172, 139, 178);
+  }
+  main .AD .left {
+    height: 163px;
+    background-color: rgb(172, 139, 178);
+    padding: 20px 0 20px 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: space-between;
+  }
+  main .AD .left .title {
+    width: 110px;
+    background-color: rgb(205, 186, 209);
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+  }
+  main .AD .left p {
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+  }
+  main .AD .left p span:not(:last-of-type) {
+    font-size: 1.1rem;
+    letter-spacing: -2px;
+    padding-bottom: 8px;
+  }
+  main .AD .left p span:last-of-type {
+    font-size: 0.9rem;
+    font-weight: 100;
+    letter-spacing: -2px;
+    padding-top: 7px;
+  }
+  main .AD img {}
+  main .user_manu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 15px;
+    border-bottom: 10px solid rgb(236, 236, 236);
+  }
+  main .user_manu .left {
+    display: flex;
+    align-items: center;
+  }
+  main .user_manu .left .img {
+    width: 21px;
+    height: 21px;
+    border-radius: 40%;
+    background-image: url('../images/main/profile/KakaoTalk_20230219_192357329.jpg');
+    background-size: 150%;
+    background-position: center center;
+    margin-right: 8px;
+  }
+  main .user_manu .left span {
+    font-size: 0.85rem;
+    letter-spacing: -1px;
+    margin-right: 3px;
+  }
+  main .user_manu .left i {
+    font-size: 0.9rem;;
+  }
+  main .user_manu .right {}
+  main .user_manu .right a {
+    font-size: 0.85rem;
+    letter-spacing: -1px;
+  }
+  main .user_manu .right a:first-of-type {
+    padding-right: 10px;
+    border-right: 1px solid rgb(245, 245, 245)
+  }
+  main .user_manu .right a:last-of-type {
+    padding-left: 5px;
+  }
+  main .content {
+    padding: 21px 15px 24px;
+  }
+  main .content .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  main .content .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  main .content .profile .name {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+  }
+  main .content .name .live {
+    line-height: 1.0;
+    margin-bottom: 10px;
+  }
+  main .content .name .live a {
+    padding: 0 7px 1.8px;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: rgb(214, 103, 72);
+    border-radius: 15px;
+  }
+  main .content .name .live span {
+    font-size: 0.75rem;
+    letter-spacing: -1px;
+    color: #a1a1a1
+  }
+  main .content .name > span {
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+  main .content > img {
+    width: 350px;
+    height: 204px;
+    border-radius: 5px;
+  }
+  footer {
+    height: 60px;
+    padding-top: 18px;
+    background-color: rgb(249, 249, 249);
+    border-top: 1px solid rgb(240, 240, 240);
+    position: relative;
+  }
+  footer .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  footer .menu li a img {
+    width: 27px;
+  }
+  footer .chat {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(237, 108, 60);
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 0.93;
+    position: absolute;
+    top: 14px;
+    left: 118px;
+  }
+  footer .chat span {
+    font-size: 0.7rem;
+  }
+}
