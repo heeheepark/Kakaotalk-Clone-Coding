@@ -1,0 +1,349 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  body {
+    width: 380px;
+    margin: 0px auto;
+    background-color: rgb(245, 245, 245);
+  }
+  .hidden {
+    display: none;
+  }
+  header {
+    width: 100%;
+    padding-bottom: 27px;
+    background-color: #fff;
+  }
+  header nav.topbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px 30px;
+    margin-right: 15px;
+  }
+  header nav.topbar span {
+    font-size: 1.1rem;
+  }
+  header nav.topbar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header nav.topbar ul li:not(:last-of-type) {
+    padding-right: 8px
+  }
+  header nav.topbar ul li:last-of-type {
+    font-size: 1.3rem;
+  }
+  header .top {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 15px;
+  }
+  header .top .text {
+    font-size: 1.25rem;
+    letter-spacing: -2px;
+  }
+  header .top ul.icon {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  header .top ul.icon li:not(:last-of-type) {
+    padding-right: 20px;
+  }
+  header .top ul.icon li a {
+    width: 15px;
+    height: 15px;
+  }
+  main {
+    background-color: rgb(245, 245, 245);
+  }
+  main .menu {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display: flex;
+    padding-left: 15px;
+  }
+  main .menu li {
+    letter-spacing: -1px;
+    padding: 0 5px;
+    padding-bottom: 18px;
+  }
+  main .menu li:not(:first-of-type) {
+    color: rgb(163, 163, 163);
+  }
+  main .menu li:not(:last-of-type) {
+    margin-right: 20px;
+  }
+  main .menu li:first-of-type {
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgb(25, 25, 25);
+  }
+  main .AD {
+    background-color: rgb(243, 243, 243);
+    border-radius: 6px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    height: 78px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0 5px 12px;
+  }
+  main .AD .textbox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-left: 15px;
+  }
+  main .AD .textbox .title {
+    margin-bottom: 6px;
+    color: #222
+  }
+  main .AD .textbox .subtitle {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  main .AD .textbox .subtitle > span {
+    font-size: 0.8rem;
+    color: #707070
+  }
+  main .AD img {
+    width: 120px;
+  }
+  main .add {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 48px;
+    margin: 0 12px;
+  }
+  main .add .left {
+    display: flex;
+    align-items: center;
+  }
+  main .add .left img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  main .add .left span {
+    font-size: 0.77rem;
+    letter-spacing: -1.5px;
+  }
+  main .add div i {
+    font-size: 0.5rem;
+    color: rgb(178, 178, 178);
+    padding-right: 15px;
+  }
+  main .my_view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 12px 15px;
+  }
+  main .my_view .left {
+    display: inline;
+    align-items: center;
+  }
+  main .my_view .left span {
+    font-size: 0.75rem;
+    letter-spacing: -1px;
+    color: rgb(147, 147, 147);
+  }
+  main .my_view .left i {
+    font-size: 0.7rem;
+    color: rgb(175, 175, 175);
+  }
+  main .my_view .right {
+    display: flex;
+  }
+  main .my_view .right span {
+    display: block;
+    font-size: 0.75rem;
+    letter-spacing: -1px;
+    height: 10px;
+  }
+  main .my_view .right span:first-of-type {
+    padding-right: 6px;
+    border-right: 1px solid rgb(230, 230, 230);
+    color: rgb(171, 171, 171);
+  }
+  main .my_view .right span:last-of-type {
+    padding-left: 6px;
+    color: rgb(122, 122, 122);
+  }
+  main .view {
+    height: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 12px 93px;
+  }
+  main .view .content {
+    padding: 20px 10px 0;
+  }
+  main .view .content .profilebox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 21px;
+  }
+  main .view .content .profilebox .profile {
+    display: flex;
+    align-items: center;
+  }
+  main .view .content .profilebox .profile .img {
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/view/profile.jpg);
+    background-size: contain;
+    background-position: center center;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 40%;
+    margin-right: 10px;
+  }
+  main .view .content .profilebox .profile .user {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+  }
+  main .view .content .profilebox .profile .user .name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  main .view .content .profilebox .profile .user .name .text1 {
+    font-size: 0.75rem;
+    letter-spacing: -1px;
+    padding-right: 2px;
+  }
+  main .view .content .profilebox .profile .user .name .check {
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+  }
+  main .view .content .profilebox .profile .user .name .dot {
+    width: 4px;
+    margin-right: 5px;
+  }
+  main .view .content .profilebox .profile .user .name .text2 {
+    font-size: 0.75rem;
+    letter-spacing: -1px;
+    color: rgb(71, 134, 215);
+  }
+  main .view .content .profilebox .profile .user .date {
+    font-size: 0.72rem;
+    color: rgb(153, 153, 153);
+  }
+  main .view .content .profilebox > i {
+    font-size: 0.9rem;
+    color: rgb(76, 76, 76);
+  }
+  main .view .content > .text {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    margin-bottom: 14px;
+  }
+  main .view .content > .text .title {
+    margin-bottom: 18px;
+  }
+  main .view .content > .text span {
+    font-size: 0.85rem;
+    letter-spacing: -1px;
+    line-height: 1.6;
+  }
+  main .view .content .image {
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 2px solid rgb(235, 235, 235);
+  }
+  main .view .content .image > img {
+    width: 105px;
+    margin-right: 15px;
+  }
+  main .view .content .image .text {}
+  main .view .content .image .text .top {
+    display: block;
+    font-size: 0.88rem;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+  }
+  main .view .content .image .text .bottom {
+    display: flex;
+    align-items: center;
+  }
+  main .view .content .image .text .bottom img {
+    width: 18px;
+    margin-right: 3px;
+  }
+  main .view .content .image .text .bottom span {
+    font-size: 0.75rem;
+    color: rgb(153, 153, 153);
+  }
+  main .view .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 10px;
+  }
+  main .view .button .shareBtn {
+    display: flex;
+    align-items: center;
+    color: rgb(76, 76, 76);
+  }
+  main .view .button .shareBtn i {
+    font-size: 1.1rem;
+    padding-right: 7px;
+  }
+  main .view .button .shareBtn span {
+    font-size: 0.75rem;
+
+  }
+  main .view .button .likeBtn {
+    color: rgb(76, 76, 76);
+  }
+  main .view .button .likeBtn i {
+    font-size: 1.1rem;
+    padding-right: 3px;
+  }
+  main .view .button .likeBtn .like {
+    font-size: 0.75rem;
+  }
+  main .view .button .likeBtn .like_count {
+    font-size: 0.75rem;
+    color: rgb(153, 153, 153);
+  }
+  footer {
+    height: 60px;
+    padding-top: 18px;
+    background-color: rgb(249, 249, 249);
+    border-top: 1px solid rgb(240, 240, 240);
+    position: relative;
+  }
+  footer .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  footer .menu li a img {
+    width: 27px;
+  }
+  footer .chat {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(237, 108, 60);
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 0.93;
+    position: absolute;
+    top: 14px;
+    left: 118px;
+  }
+  footer .chat span {
+    font-size: 0.7rem;
+  }
+}
