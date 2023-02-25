@@ -1,6 +1,6 @@
 @media screen and (min-width: 0px) and (max-width: 768px) {
   body {
-    width: 380px;
+    width: 100%;
     background-color: rgb(254, 229, 0);
     margin: 0 auto;
     padding: 0 60px;
@@ -130,7 +130,8 @@
   }
   main .auto_login label span {
     font-size: 0.78rem;
-    color: rgb(127, 114, 0)
+    color: rgb(127, 114, 0);
+    vertical-align: top;
   }
   main .auto_login .info {
     width: 18px;
