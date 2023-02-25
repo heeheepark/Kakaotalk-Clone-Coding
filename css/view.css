@@ -1,6 +1,6 @@
 @media screen and (min-width: 0px) and (max-width: 768px) {
   body {
-    width: 380px;
+    width: 100%;
     margin: 0px auto;
     background-color: rgb(245, 245, 245);
   }
@@ -321,7 +321,6 @@
     padding-top: 18px;
     background-color: rgb(249, 249, 249);
     border-top: 1px solid rgb(240, 240, 240);
-    position: relative;
   }
   footer .menu {
     display: flex;
@@ -330,6 +329,9 @@
   }
   footer .menu li a img {
     width: 27px;
+  }
+  footer .menu li:nth-of-type(2){
+    position: relative;
   }
   footer .chat {
     width: 18px;
@@ -340,8 +342,8 @@
     color: #fff;
     line-height: 0.93;
     position: absolute;
-    top: 14px;
-    left: 118px;
+    top: -3px;
+    left: 18px;
   }
   footer .chat span {
     font-size: 0.7rem;
