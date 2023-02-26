@@ -13,7 +13,7 @@ fieldset {
   border: 0;
 }
 legend {
-  display: none;
+  font-size: 0;
 }
 ul, li {
   list-style: none;

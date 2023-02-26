@@ -1,9 +1,8 @@
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
-    width: 100%;
+    width: 75%;
     background-color: rgb(254, 229, 0);
     margin: 0 auto;
-    padding: 0 60px;
   }
   .hidden {
     display: none;
@@ -52,21 +51,21 @@
     border: none;
     color: #fff;
   }
-  main .OR {
+  main .or {
     margin: 18px 0;
     color: rgb(127, 114, 0);
     font-size: 0.7rem;
     display: flex;
     align-items: center;
   }
-  main .OR::before {
+  main .or::before {
     content: "";
     flex-grow: 1;
     margin-right: 10px;
     background: rgba(0, 0, 0, 0.08);
     height: 1px;
   }
-  main .OR::after {
+  main .or::after {
     content: "";
     flex-grow: 1;
     margin-left: 10px;
@@ -110,6 +109,9 @@
     appearance: none;
   }
   main .auto_login p label input + span {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 5px;
   }
   main .auto_login p label input + span::before {
     content: "";
@@ -117,13 +119,13 @@
     height: 20px;
     margin-right: 5px;
     display: inline-block;
-    background-color: #fff;
-    background-image: url('../images/login/check.png');
+    background: url('../images/login/check.png') no-repeat -20px #fff;
     background-size: 14px;
-    background-repeat: no-repeat;
-    background-position: -20px;
     border-radius: 50%;
     border: 1px solid #ddd;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   main .auto_login p label input:checked + span::before {
     background-position: 3px;
@@ -149,7 +151,7 @@
     color: rgb(127, 114, 0);
     position: absolute;
     left: 7px;
-    top: 9px;
+    top: 3px;
   }
   footer {}
   footer .help {

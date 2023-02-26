@@ -53,7 +53,7 @@
     height: 15px;
   }
   main {}
-  main .AD {
+  main .ad {
     background-color: rgb(243, 243, 243);
     border-radius: 6px;
     height: 78px;
@@ -62,41 +62,41 @@
     justify-content: space-between;
     margin-bottom: 18px;
   }
-  main .AD .textbox {
+  main .ad .textbox {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     padding-left: 15px;
   }
-  main .AD .textbox .title {
+  main .ad .textbox .title {
     margin-bottom: 6px;
     color: #222
   }
-  main .AD .textbox .subtitle {
+  main .ad .textbox .subtitle {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
   }
-  main .AD .textbox .subtitle > a {
+  main .ad .textbox .subtitle > div {
     background-color: rgb(251, 230, 76);
     border-radius: 15px;
     display: flex;
     text-align: center;
     padding: 3px 6px;
   }
-  main .AD .textbox .subtitle > a i {
+  main .ad .textbox .subtitle > div i {
     font-size: 0.6rem;
   }
-  main .AD .textbox .subtitle > a > .text {
+  main .ad .textbox .subtitle > div > .text {
     font-size: 0.5rem;
     letter-spacing: -0.5px;
   }
-  main .AD .textbox .subtitle > span {
+  main .ad .textbox .subtitle > span {
     font-size: 0.8rem;
     padding-left: 3px;
     color: #707070
   }
-  main .AD img {
+  main .ad img {
     width: 63px;
     height: 60px;
     margin: 12px 24px 0 0;
@@ -160,7 +160,8 @@
   main .multiprofile .title span {
     font-size: 0.75rem;
   }
-  main .multiprofile .title i {
+  main .multiprofile .title a {
+    color:#a8a8a8;
     font-size: 0.75rem;
   }
   main .multiprofile > .profile {
@@ -209,10 +210,14 @@
     border-bottom: rgb(240, 240, 240);
   }
   footer {
+    width: 100%;
     height: 60px;
     padding-top: 18px;
     background-color: rgb(249, 249, 249);
     border-top: 1px solid rgb(240, 240, 240);
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   footer .menu {
     display: flex;

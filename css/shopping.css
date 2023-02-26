@@ -60,29 +60,29 @@
     padding: 20px;
     margin-bottom: 17px;
   }
-  main .top a {}
-  main .top a li {
+  main .top {}
+  main .top li a {
     width: 52px;
     height: 45px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
   }
-  main .top a li img {
+  main .top li a img {
     padding-bottom: 5px;
   }
-  main .top a li span {
+  main .top li a span {
     font-size: 0.7rem;
     letter-spacing: -1px;
   }
-  main .AD {
+  main .ad {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(172, 139, 178);
   }
-  main .AD .left {
+  main .ad .left {
     height: 163px;
     background-color: rgb(172, 139, 178);
     padding: 20px 0 20px 25px;
@@ -91,7 +91,7 @@
     align-items: start;
     justify-content: space-between;
   }
-  main .AD .left .title {
+  main .ad .left .title {
     width: 110px;
     background-color: rgb(205, 186, 209);
     border-radius: 15px;
@@ -99,23 +99,23 @@
     padding: 5px 8px;
     font-size: 0.9rem;
   }
-  main .AD .left p {
+  main .ad .left p {
     color: #fff;
     display: flex;
     flex-flow: column;
   }
-  main .AD .left p span:not(:last-of-type) {
+  main .ad .left p span:not(:last-of-type) {
     font-size: 1.1rem;
     letter-spacing: -2px;
     padding-bottom: 8px;
   }
-  main .AD .left p span:last-of-type {
+  main .ad .left p span:last-of-type {
     font-size: 0.9rem;
     font-weight: 100;
     letter-spacing: -2px;
     padding-top: 7px;
   }
-  main .AD img {}
+  main .ad img {}
   main .user_manu {
     display: flex;
     align-items: center;
@@ -203,10 +203,14 @@
     border-radius: 5px;
   }
   footer {
+    width: 100%;
     height: 60px;
     padding-top: 18px;
     background-color: rgb(249, 249, 249);
     border-top: 1px solid rgb(240, 240, 240);
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   footer .menu {
     display: flex;

@@ -70,8 +70,11 @@
     padding: 0 5px;
     padding-bottom: 18px;
   }
-  main .menu li:not(:first-of-type) {
+  main .menu li a {
     color: rgb(163, 163, 163);
+  }
+  main .menu li .first {
+    color: #000;
   }
   main .menu li:not(:last-of-type) {
     margin-right: 20px;
@@ -80,7 +83,7 @@
     padding-bottom: 16px;
     border-bottom: 2px solid rgb(25, 25, 25);
   }
-  main .AD {
+  main .ad {
     background-color: rgb(243, 243, 243);
     border-radius: 6px;
     border-bottom: 1px solid rgb(230, 230, 230);
@@ -90,26 +93,26 @@
     justify-content: space-between;
     margin: 0 5px 12px;
   }
-  main .AD .textbox {
+  main .ad .textbox {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     padding-left: 15px;
   }
-  main .AD .textbox .title {
+  main .ad .textbox .title {
     margin-bottom: 6px;
     color: #222
   }
-  main .AD .textbox .subtitle {
+  main .ad .textbox .subtitle {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
   }
-  main .AD .textbox .subtitle > span {
+  main .ad .textbox .subtitle > span {
     font-size: 0.8rem;
     color: #707070
   }
-  main .AD img {
+  main .ad img {
     width: 120px;
   }
   main .add {
@@ -160,18 +163,18 @@
   main .my_view .right {
     display: flex;
   }
-  main .my_view .right span {
+  main .my_view .right a {
     display: block;
     font-size: 0.75rem;
     letter-spacing: -1px;
     height: 10px;
   }
-  main .my_view .right span:first-of-type {
+  main .my_view .right a:first-of-type {
     padding-right: 6px;
     border-right: 1px solid rgb(230, 230, 230);
     color: rgb(171, 171, 171);
   }
-  main .my_view .right span:last-of-type {
+  main .my_view .right a:last-of-type {
     padding-left: 6px;
     color: rgb(122, 122, 122);
   }
@@ -237,9 +240,10 @@
     font-size: 0.72rem;
     color: rgb(153, 153, 153);
   }
-  main .view .content .profilebox > i {
+  main .view .content .profilebox > a i {
     font-size: 0.9rem;
     color: rgb(76, 76, 76);
+    padding: 5px;
   }
   main .view .content > .text {
     padding-bottom: 15px;
@@ -289,38 +293,42 @@
     align-items: center;
     margin: 15px 10px;
   }
-  main .view .button .shareBtn {
+  main .view .button .shareBtn a {
     display: flex;
     align-items: center;
     color: rgb(76, 76, 76);
   }
-  main .view .button .shareBtn i {
+  main .view .button .shareBtn a i {
     font-size: 1.1rem;
     padding-right: 7px;
   }
-  main .view .button .shareBtn span {
+  main .view .button .shareBtn a span {
     font-size: 0.75rem;
 
   }
-  main .view .button .likeBtn {
+  main .view .button .likeBtn a {
     color: rgb(76, 76, 76);
   }
-  main .view .button .likeBtn i {
+  main .view .button .likeBtn a i {
     font-size: 1.1rem;
     padding-right: 3px;
   }
-  main .view .button .likeBtn .like {
+  main .view .button .likeBtn a .like {
     font-size: 0.75rem;
   }
-  main .view .button .likeBtn .like_count {
+  main .view .button .likeBtn a .like_count {
     font-size: 0.75rem;
     color: rgb(153, 153, 153);
   }
   footer {
+    width: 100%;
     height: 60px;
     padding-top: 18px;
     background-color: rgb(249, 249, 249);
     border-top: 1px solid rgb(240, 240, 240);
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
   footer .menu {
     display: flex;
