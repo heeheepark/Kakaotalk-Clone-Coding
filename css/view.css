@@ -21,7 +21,7 @@
     margin-right: 15px;
   }
   header nav.topbar span {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
   header nav.topbar ul {
     display: flex;
@@ -32,7 +32,7 @@
     padding-right: 8px
   }
   header nav.topbar ul li:last-of-type {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
   header .top {
     display: flex;
@@ -41,7 +41,7 @@
     margin: 0 15px;
   }
   header .top .text {
-    font-size: 1.25rem;
+    font-size: 21px;
     letter-spacing: -2px;
   }
   header .top ul.icon {
@@ -109,7 +109,7 @@
     align-items: center;
   }
   main .ad .textbox .subtitle > span {
-    font-size: 0.8rem;
+    font-size: 13px;
     color: #707070
   }
   main .ad img {
@@ -133,11 +133,11 @@
     margin-right: 10px;
   }
   main .add .left span {
-    font-size: 0.77rem;
-    letter-spacing: -1.5px;
+    font-size: 12px;
+    letter-spacing: -1px;
   }
   main .add div i {
-    font-size: 0.5rem;
+    font-size: 11px;
     color: rgb(178, 178, 178);
     padding-right: 15px;
   }
@@ -152,12 +152,12 @@
     align-items: center;
   }
   main .my_view .left span {
-    font-size: 0.75rem;
+    font-size: 12px;
     letter-spacing: -1px;
     color: rgb(147, 147, 147);
   }
   main .my_view .left i {
-    font-size: 0.7rem;
+    font-size: 11px;
     color: rgb(175, 175, 175);
   }
   main .my_view .right {
@@ -165,17 +165,17 @@
   }
   main .my_view .right a {
     display: block;
-    font-size: 0.75rem;
+    font-size: 12px;
     letter-spacing: -1px;
-    height: 10px;
+    height: 12px;
   }
   main .my_view .right a:first-of-type {
-    padding-right: 6px;
+    padding-right: 10px;
     border-right: 1px solid rgb(230, 230, 230);
     color: rgb(171, 171, 171);
   }
   main .my_view .right a:last-of-type {
-    padding-left: 6px;
+    padding-left: 10px;
     color: rgb(122, 122, 122);
   }
   main .view {
@@ -218,7 +218,7 @@
     margin-bottom: 8px;
   }
   main .view .content .profilebox .profile .user .name .text1 {
-    font-size: 0.75rem;
+    font-size: 13px;
     letter-spacing: -1px;
     padding-right: 2px;
   }
@@ -232,16 +232,16 @@
     margin-right: 5px;
   }
   main .view .content .profilebox .profile .user .name .text2 {
-    font-size: 0.75rem;
+    font-size: 12px;
     letter-spacing: -1px;
     color: rgb(71, 134, 215);
   }
   main .view .content .profilebox .profile .user .date {
-    font-size: 0.72rem;
+    font-size: 12px;
     color: rgb(153, 153, 153);
   }
   main .view .content .profilebox > a i {
-    font-size: 0.9rem;
+    font-size: 15px;
     color: rgb(76, 76, 76);
     padding: 5px;
   }
@@ -254,7 +254,7 @@
     margin-bottom: 18px;
   }
   main .view .content > .text span {
-    font-size: 0.85rem;
+    font-size: 14px;
     letter-spacing: -1px;
     line-height: 1.6;
   }
@@ -271,7 +271,7 @@
   main .view .content .image .text {}
   main .view .content .image .text .top {
     display: block;
-    font-size: 0.88rem;
+    font-size: 14px;
     letter-spacing: -1px;
     margin-bottom: 15px;
   }
@@ -284,7 +284,7 @@
     margin-right: 3px;
   }
   main .view .content .image .text .bottom span {
-    font-size: 0.75rem;
+    font-size: 12px;
     color: rgb(153, 153, 153);
   }
   main .view .button {
@@ -299,25 +299,25 @@
     color: rgb(76, 76, 76);
   }
   main .view .button .shareBtn a i {
-    font-size: 1.1rem;
+    font-size: 18px;
     padding-right: 7px;
   }
   main .view .button .shareBtn a span {
-    font-size: 0.75rem;
+    font-size: 12px;
 
   }
   main .view .button .likeBtn a {
     color: rgb(76, 76, 76);
   }
   main .view .button .likeBtn a i {
-    font-size: 1.1rem;
+    font-size: 18px;
     padding-right: 3px;
   }
   main .view .button .likeBtn a .like {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   main .view .button .likeBtn a .like_count {
-    font-size: 0.75rem;
+    font-size: 12px;
     color: rgb(153, 153, 153);
   }
   footer {
@@ -354,6 +354,6 @@
     left: 18px;
   }
   footer .chat span {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 }

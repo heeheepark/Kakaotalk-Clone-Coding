@@ -29,7 +29,7 @@
   main form fieldset input {
     height: 38px;
     padding: 10px;
-    font-size: 0.8rem;
+    font-size: 12px;
   }
   main form fieldset input:first-of-type {
     border-bottom: 1px solid #eeeded;
@@ -44,7 +44,7 @@
     border-radius: 3px;
     background-color: rgb(246, 246, 246);
     color: rgb(172, 172, 172);
-    font-size: 0.84rem;
+    font-size: 12px;
     }
   main .login_Btn:hover {
     background-color: rgb(66, 54, 48);
@@ -54,7 +54,7 @@
   main .or {
     margin: 18px 0;
     color: rgb(127, 114, 0);
-    font-size: 0.7rem;
+    font-size: 12px;
     display: flex;
     align-items: center;
   }
@@ -90,7 +90,7 @@
     margin-right: 10px;
   }
   main .qr_login span {
-    font-size: 0.83rem;
+    font-size: 12px;
   }
   main .auto_login {
     display: flex;
@@ -131,7 +131,7 @@
     background-position: 3px;
   }
   main .auto_login label span {
-    font-size: 0.78rem;
+    font-size: 12px;
     color: rgb(127, 114, 0);
     vertical-align: top;
   }
@@ -147,11 +147,11 @@
     cursor: pointer;
   }
   main .auto_login .info span {
-    font-size: 0.7rem;
+    font-size: 12px;
     color: rgb(127, 114, 0);
     position: absolute;
-    left: 7px;
-    top: 3px;
+    left: 6px;
+    top: 2px;
   }
   footer {}
   footer .help {
@@ -160,12 +160,12 @@
     align-items: center;
   }
   footer .help a {
-    font-size: 0.72rem;
+    font-size: 12px;
     padding: 0 3px;
     color: rgb(127, 114, 0);
   }
   footer .help div {
-    font-size: 0.72rem;
+    font-size: 12px;
     color:  rgb(216, 194, 0);
   }
 }

@@ -19,7 +19,7 @@
     padding: 21px 0 36px 30px;
   }
   header nav.topbar span {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
   header nav.topbar ul {
     display: flex;
@@ -30,7 +30,7 @@
     padding-right: 8px
   }
   header nav.topbar ul li:last-of-type {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
   header .top {
     display: flex;
@@ -38,7 +38,7 @@
     justify-content: space-between;
   }
   header .top .text {
-    font-size: 1.25rem;
+    font-size: 21px;
   }
   header .top ul.icon {
     display: flex;
@@ -78,7 +78,7 @@
     align-items: center;
   }
   main .ad .textbox .subtitle > span {
-    font-size: 0.8rem;
+    font-size: 13px;
     color: #707070
   }
   main .ad img {
@@ -143,7 +143,7 @@
   }
   main .chat a[class^=chat] .text .user_name {
     padding-bottom: 8px;
-    font-size: 0.96rem;
+    font-size: 15px;
     letter-spacing: -1px;
   }
   main .chat a[class=chat1] .text .user_name {
@@ -160,13 +160,13 @@
   }
   main .chat a[class=chat1] .text .user_name .user_me span {
     color: #fff;
-    font-size: 0.1rem;
+    font-size: 10px;
   }
   main .chat a[class=chat1] .text .user_name > span {
-    font-size: 0.96rem;
+    font-size: 15px;
   }
   main .chat a[class^=chat] .text .message {
-    font-size: 0.7rem;
+    font-size: 12px;
     line-height: 0.8;
     color: rgb(167, 167, 167);
   }
@@ -176,7 +176,7 @@
     align-items: end;
   }
   main .chat a[class^=chat] .right .time {
-    font-size: 0.68rem;
+    font-size: 11px;
     color: rgb(189, 189, 189);
     padding-bottom: 6px;
   }
@@ -225,6 +225,6 @@
     left: 18px;
   }
   footer .chat span {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 }

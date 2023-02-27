@@ -15,11 +15,11 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0 30px 30px;
+    padding: 20px 0 32px 30px;
     margin-right: 15px;
   }
   header nav.topbar span {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
   header nav.topbar ul {
     display: flex;
@@ -30,7 +30,7 @@
     padding-right: 8px
   }
   header nav.topbar ul li:last-of-type {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
   header .top {
     display: flex;
@@ -39,7 +39,7 @@
     margin: 0 15px;
   }
   header .top .text {
-    font-size: 1.25rem;
+    font-size: 21px;
     letter-spacing: -2px;
   }
   header .top ul.icon {
@@ -74,7 +74,7 @@
     align-items: center;
   }
   main section.wallet .top .left span {
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 5px;
   }
@@ -87,7 +87,7 @@
     margin-right: 2px;
   }
   main section.wallet .top .right span {
-    font-size: 0.96rem;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: -2px;
   }
@@ -107,11 +107,11 @@
   }
   main section.wallet .middle1 .left img {}
   main section.wallet .middle1 .left span {
-    font-size: 0.92rem;
+    font-size: 15px;
     font-weight: bold;
   }
   main section.wallet .middle1 i {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
   main section.wallet .middle2 {
     height: 36px;
@@ -128,11 +128,11 @@
     display: block;
     height: 25px;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 18px;
     letter-spacing: -0.5px;
   }
   main section.wallet .middle2 > span {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   main section.wallet .bottom {
     height: 24px;
@@ -146,7 +146,7 @@
     align-items: center;
   }
   main section.wallet .bottom ul.left li {
-    font-size: 0.9rem;
+    font-size: 14px;
     letter-spacing: -1px;
     padding: 0 18px;
     border-right: 1px solid rgb(229, 210, 69);
@@ -162,10 +162,10 @@
     letter-spacing: -1.5px;
   }
   main section.wallet .bottom .right i {
-    font-size: 0.9rem;
+    font-size: 14px;
   }
   main section.wallet .bottom .right span {
-    font-size: 0.9rem;
+    font-size: 14px;
     letter-spacing: -1.5px;
   }
   main section.icons {
@@ -194,7 +194,7 @@
     background-size: cover;
   }
   main section.icons ul li span {
-    font-size: 0.5rem;
+    font-size: 11px;
     letter-spacing: -1px;
   }
   footer {
@@ -231,6 +231,6 @@
     left: 18px;
   }
   footer .chat span {
-    font-size: 0.7rem;
+    font-size: 12px;
   }
 }

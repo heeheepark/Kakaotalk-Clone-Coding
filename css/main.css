@@ -19,7 +19,7 @@
     padding: 20px 0 30px 30px;
   }
   header nav.topbar span {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
   header nav.topbar ul {
     display: flex;
@@ -30,7 +30,7 @@
     padding-right: 8px
   }
   header nav.topbar ul li:last-of-type {
-    font-size: 1.3rem;
+    font-size: 21px;
   }
   header .top {
     display: flex;
@@ -38,7 +38,7 @@
     justify-content: space-between;
   }
   header .top .text {
-    font-size: 1.25rem;
+    font-size: 21px;
   }
   header .top ul.icon {
     display: flex;
@@ -85,14 +85,14 @@
     padding: 3px 6px;
   }
   main .ad .textbox .subtitle > div i {
-    font-size: 0.6rem;
+    font-size: 11px;
   }
   main .ad .textbox .subtitle > div > .text {
-    font-size: 0.5rem;
+    font-size: 11px;
     letter-spacing: -0.5px;
   }
   main .ad .textbox .subtitle > span {
-    font-size: 0.8rem;
+    font-size: 13px;
     padding-left: 3px;
     color: #707070
   }
@@ -133,13 +133,13 @@
   }
   main .profile .user .user_name {
     padding-bottom: 10px;
-    font-size: 1.0rem;
+    font-size: 15px;
   }
   main .profile .user .message {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
   main .profile .music span {
-    font-size:  0.7rem;
+    font-size:  11px;
     border: 1px solid rgb(92, 202, 82);
     border-radius: 15px;
     height: 21px;
@@ -158,11 +158,11 @@
     margin-bottom: 15px;
   }
   main .multiprofile .title span {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   main .multiprofile .title a {
     color:#a8a8a8;
-    font-size: 0.75rem;
+    font-size: 12px;
   }
   main .multiprofile > .profile {
     display: flex;
@@ -180,12 +180,12 @@
     color: rgb(199, 225, 235);
     border: 1px solid rgb(147, 190, 207);
     border-radius: 40%;
-    font-size: 1.2rem;
+    font-size: 20px;
     padding: 12px 15px;
     margin-bottom: 7.5px;
   }
   main .multiprofile .profile .profile1 span {
-    font-size: 0.7rem;
+    font-size: 11px;
   }
   main .multiprofile .profile .profile2 {
     display: flex;
@@ -197,12 +197,12 @@
     color: rgb(106, 106, 106);
     border: 1px solid rgb(235, 235, 235);
     border-radius: 40%;
-    font-size: 1.2rem;
+    font-size: 20px;
     padding: 12px 15px;
     margin-bottom: 7.5px;
   }
   main .multiprofile .profile .profile2 span {
-    font-size: 0.7rem;
+    font-size: 11px;
   }
   main .blank {
     height: 339px;
@@ -243,6 +243,6 @@
     left: 18px;
   }
   footer .chat span {
-    font-size: 0.7rem;
+    font-size: 11px;
   }
 }
