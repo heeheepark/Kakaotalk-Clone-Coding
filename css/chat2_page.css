@@ -1,0 +1,177 @@
+body {
+  width: 100%;
+  margin: 0px auto;
+  background-color: rgb(175, 192, 207);
+}
+.hidden {
+  display: none;
+}
+header {
+  width: 100%;
+  padding: 0 18px 18px;
+}
+header nav.topbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 30px 30px;
+}
+header nav.topbar span {
+  font-size: 20px;
+}
+header nav.topbar ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+header nav.topbar ul li:not(:last-of-type) {
+  padding-right: 8px
+}
+header nav.topbar ul li:last-of-type {
+  font-size: 21px;
+}
+header .top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header .top .icon_left a {
+  display: flex;
+  align-items: center;
+}
+header .top .icon_left img {
+  margin-right: 6px;
+}
+header .top .icon_left a div {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+header .top .text {
+  font-size: 18px;
+  margin-left: 50px;
+}
+header .top ul.icon {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+header .top ul.icon li:not(:last-of-type) {
+  padding-right: 20px;
+}
+header .top ul.icon li a {
+  width: 15px;
+  height: 15px;
+}
+main {
+  padding: 0 12px;
+}
+main section[class ^="talk"] {}
+main section[class ^="talk"] .left {
+  margin-bottom: 7px;
+}
+main section[class ^="talk"] .left .profile {
+  float: left;
+  margin-right: 6px;
+}
+main section[class ^="talk"] .left .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+main section[class ^="talk"] .left .friend {
+  float: left;
+}
+main section[class ^="talk"] .left .friend .name {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+main section[class ^="talk"] .left .friend div[class ^="text"] {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  font-size: 15px;
+  position: relative;
+}
+main section[class ^="talk"] .left .friend .text1::after {
+    border-top: 3px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid #fff;
+    border-bottom: 3px solid transparent;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -12px;
+}
+main section[class ^="talk"] .left .friend div[class ^="text"] .time {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0px;
+  right: -52px;
+}
+main section[class ^="talk"] .right {
+  clear: both;
+}
+main section[class ^="talk"] .right .user {
+  float: right;
+}
+main section[class ^="talk"] .right .user div[class ^="text"] {  
+  background-color: rgb(250, 230, 76);
+  padding: 10px;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  font-size: 15px;
+  position: relative;
+}
+main section[class ^="talk"] .right .friend .text1::after {
+  border-top: 50px solid transparent;
+  border-left: 30px solid rgb(250, 230, 76);
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid transparent;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+main section[class ^="talk"] .right .user .text .time {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0px;
+  left: -52px;
+}
+main .talk2 {
+  clear: both;
+}
+footer {
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+footer .left {
+  padding-right: 15px;
+}
+footer .left img {}
+footer .right {
+  width: 95%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 18px;
+  padding: 6px 20px 6px 0;
+}
+footer .right img:first-of-type {
+  margin-right: 20px;
+}
