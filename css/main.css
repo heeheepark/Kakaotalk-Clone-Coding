@@ -117,13 +117,13 @@
     align-items: center;
   }
   main .profile .profile_img {
+
+  }
+  main .profile .profile_img img {
     margin-right: 12px;
     width: 60px;
     height: 60px;
     border-radius: 40%;
-    background-image: url('../images/main/profile/KakaoTalk_20230219_192357329.jpg');
-    background-size: 70px;
-    background-position: center center;
   }
   main .profile .user {
     display: flex;
